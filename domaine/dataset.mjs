@@ -1,4 +1,4 @@
-export let dataSet = [
+let dataSet = [
     {
         Id: 1,
         Nom: "Rambo",
@@ -18,3 +18,5 @@ export let dataSet = [
         Citation: "Bande de macaque, vous voulez vire pour toujours ?"
     },
 ]
+
+export { dataSet };
