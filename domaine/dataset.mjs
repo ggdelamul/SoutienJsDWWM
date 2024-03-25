@@ -15,7 +15,7 @@ let dataSet = [
         Id: 3,
         Nom: "Rico",
         Prenom: "Jhonny",
-        Citation: "Bande de macaque, vous voulez vire pour toujours ?"
+        Citation: "Bande de macaque, vous voulez vivre pour toujours ?"
     },
 ]
 

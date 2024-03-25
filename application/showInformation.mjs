@@ -27,4 +27,15 @@ let showPersonnage = (dataSetArray, id, elementHtml) => {
         elementHtml.appendChild(divModal)
     }
 }
-export { showAllPersonnages, showPersonnage };
+
+let addClickOnEachElement = (liPersonnages, dataSetArray, elementHtml)=> {
+    liPersonnages.forEach((personnage => {
+        personnage.addEventListener("click", () => {
+            let idPersonnage = personnage.dataset['id'];
+            //console.log(typeof (idPersonnage));
+            showPersonnage(dataSetArray, idPersonnage, elementHtml)
+        })
+    }))
+}
+
+export { showAllPersonnages, showPersonnage, addClickOnEachElement };
